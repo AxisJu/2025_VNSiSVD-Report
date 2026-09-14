@@ -1,0 +1,22 @@
+name: vns_isvd
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.22
+  - scipy>=1.9
+  - pandas>=1.5
+  - matplotlib>=3.6
+  - seaborn>=0.12
+  - openpyxl>=3.1
+  - scikit-learn>=1.2
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - nibabel>=5.0.0
+      - nilearn>=0.10.0
+      - neuromaps>=0.0.4
+      - brainspace>=0.1.3
+      - neurosynth>=0.1.9
